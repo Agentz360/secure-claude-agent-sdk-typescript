@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.2.51
+
+- Updated to parity with Claude Code v2.1.51
+- Fixed SDK crashing with `ReferenceError` when used inside compiled Bun binaries (`bun build --compile`)
+- Fixed unbounded memory growth in long-running SDK sessions caused by message UUID tracking never evicting old entries
+- Fixed local slash command output not being returned to SDK clients
+- Added `task_progress` events for real-time background agent progress reporting with cumulative usage metrics, tool counts, and duration
+- Fixed `session.close()` in the v2 session API killing the subprocess before it could persist session data, which broke `resumeSession()`
+
 ## 0.2.50
 
 - Updated to parity with Claude Code v2.1.50
