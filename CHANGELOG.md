@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.2.55
+
+- Updated to parity with Claude Code v2.1.55
+
+## 0.2.54
+
+- Updated to parity with Claude Code v2.1.54
+
 ## 0.2.53
 
 - Added `listSessions()` for discovering and listing past sessions with light metadata
