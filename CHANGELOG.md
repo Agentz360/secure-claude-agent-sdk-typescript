@@ -1,5 +1,25 @@
 # Changelog
 
+## 0.2.59
+
+- Added `getSessionMessages()` function for reading a session's conversation history from its transcript file, with support for pagination via `limit` and `offset` options
+
+## 0.2.58
+
+- Updated to parity with Claude Code v2.1.58
+
+## 0.2.56
+
+- Updated to parity with Claude Code v2.1.56
+
+## 0.2.55
+
+- Updated to parity with Claude Code v2.1.55
+
+## 0.2.54
+
+- Updated to parity with Claude Code v2.1.54
+
 ## 0.2.53
 
 - Added `listSessions()` for discovering and listing past sessions with light metadata
